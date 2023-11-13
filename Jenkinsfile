@@ -2,7 +2,6 @@ pipeline {
 	agent {
 		docker {
 			image 'composer:latest'
-			args '-p 3000:3000'
 		}
 	}
 	stages {
